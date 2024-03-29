@@ -42,4 +42,11 @@ class HomeViewController: UIViewController {
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Welcome") as! ViewController
         self.present(nextViewController, animated:true, completion:nil)
     }
+    
+    @IBAction func onView(_ sender: Any) {
+        let user = Util.getUserFromStore()
+        if let url = URL(string: user!.cv_link!), UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)
+        }
+    }
 }
