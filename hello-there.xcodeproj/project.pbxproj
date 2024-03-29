@@ -20,6 +20,7 @@
 		5C0F5C7D2BB6C3460055B2E1 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F5C7B2BB6C3460055B2E1 /* User+CoreDataClass.swift */; };
 		5C0F5C7E2BB6C3460055B2E1 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F5C7C2BB6C3460055B2E1 /* User+CoreDataProperties.swift */; };
 		5C0F5C802BB6C85F0055B2E1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F5C7F2BB6C85F0055B2E1 /* Util.swift */; };
+		5C0F5C862BB6D44A0055B2E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F5C852BB6D44A0055B2E1 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		5C0F5C7B2BB6C3460055B2E1 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5C0F5C7C2BB6C3460055B2E1 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5C0F5C7F2BB6C85F0055B2E1 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		5C0F5C852BB6D44A0055B2E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				5C0F5C2A2BB695600055B2E1 /* Info.plist */,
 				5C0F5C222BB6955E0055B2E1 /* hello_there.xcdatamodeld */,
 				5C0F5C7F2BB6C85F0055B2E1 /* Util.swift */,
+				5C0F5C852BB6D44A0055B2E1 /* HomeViewController.swift */,
 			);
 			path = "hello-there";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				5C0F5C1E2BB6955E0055B2E1 /* ViewController.swift in Sources */,
 				5C0F5C1A2BB6955E0055B2E1 /* AppDelegate.swift in Sources */,
 				5C0F5C7E2BB6C3460055B2E1 /* User+CoreDataProperties.swift in Sources */,
+				5C0F5C862BB6D44A0055B2E1 /* HomeViewController.swift in Sources */,
 				5C0F5C1C2BB6955E0055B2E1 /* SceneDelegate.swift in Sources */,
 				5C0F5C802BB6C85F0055B2E1 /* Util.swift in Sources */,
 				5C0F5C242BB6955E0055B2E1 /* hello_there.xcdatamodeld in Sources */,
