@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        moc = appDelegate?.persistentContainer.viewContext
         let user = Util.getUserFromStore()
         if (user != nil) {
             let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Home") as! HomeViewController

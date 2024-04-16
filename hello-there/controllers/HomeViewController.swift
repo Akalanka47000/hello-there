@@ -38,6 +38,7 @@ class HomeViewController: UIViewController {
             }
             return UIImage(systemName: "xmark") ?? UIImage()
         }
+        
     @IBAction func onChangeLink(_ sender: Any) {
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Welcome") as! ViewController
         self.present(nextViewController, animated:true, completion:nil)
