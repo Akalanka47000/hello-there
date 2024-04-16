@@ -1,3 +1,0 @@
-1. First project written in Swift for me
-2. Differences in the XCode environment when compared to a traditional IDE did throw me off a bit
-3. Once the gist of the project was written and was in a working state, I decided to do a bit of refactoring to make things a bit more organized which broke things again. Took me a while to notice but it had been a bug in an object instantiation that was causing the crash while for sometime I was under the assumption that it was the manually renaming of the files and the core data model which made the editor go haywire.
