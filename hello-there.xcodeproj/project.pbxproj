@@ -42,7 +42,7 @@
 		5C055D302BCEB28A0055AFE6 /* core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = core.xcdatamodel; sourceTree = "<group>"; };
 		5C055D332BCEB3120055AFE6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5C055D342BCEB3120055AFE6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5C0F5C162BB6955E0055B2E1 /* hello-there.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-there.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0F5C162BB6955E0055B2E1 /* Hello There.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello There.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0F5C192BB6955E0055B2E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C0F5C1B2BB6955E0055B2E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C0F5C1D2BB6955E0055B2E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		5C0F5C172BB6955E0055B2E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C0F5C162BB6955E0055B2E1 /* hello-there.app */,
+				5C0F5C162BB6955E0055B2E1 /* Hello There.app */,
 				5C0F5C2F2BB695600055B2E1 /* hello-thereTests.xctest */,
 				5C0F5C392BB695600055B2E1 /* hello-thereUITests.xctest */,
 			);
@@ -175,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C0F5C152BB6955E0055B2E1 /* hello-there */ = {
+		5C0F5C152BB6955E0055B2E1 /* Hello There */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C0F5C432BB695600055B2E1 /* Build configuration list for PBXNativeTarget "hello-there" */;
+			buildConfigurationList = 5C0F5C432BB695600055B2E1 /* Build configuration list for PBXNativeTarget "Hello There" */;
 			buildPhases = (
 				5C0F5C122BB6955E0055B2E1 /* Sources */,
 				5C0F5C132BB6955E0055B2E1 /* Frameworks */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = "hello-there";
+			name = "Hello There";
 			productName = "hello-there";
-			productReference = 5C0F5C162BB6955E0055B2E1 /* hello-there.app */;
+			productReference = 5C0F5C162BB6955E0055B2E1 /* Hello There.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5C0F5C2E2BB695600055B2E1 /* hello-thereTests */ = {
@@ -264,7 +264,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C0F5C152BB6955E0055B2E1 /* hello-there */,
+				5C0F5C152BB6955E0055B2E1 /* Hello There */,
 				5C0F5C2E2BB695600055B2E1 /* hello-thereTests */,
 				5C0F5C382BB695600055B2E1 /* hello-thereUITests */,
 			);
@@ -334,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		5C0F5C312BB695600055B2E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C0F5C152BB6955E0055B2E1 /* hello-there */;
+			target = 5C0F5C152BB6955E0055B2E1 /* Hello There */;
 			targetProxy = 5C0F5C302BB695600055B2E1 /* PBXContainerItemProxy */;
 		};
 		5C0F5C3B2BB695600055B2E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C0F5C152BB6955E0055B2E1 /* hello-there */;
+			target = 5C0F5C152BB6955E0055B2E1 /* Hello There */;
 			targetProxy = 5C0F5C3A2BB695600055B2E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,6 +488,7 @@
 				DEVELOPMENT_TEAM = RDK3B88C83;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hello-there/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hello There";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -516,6 +517,7 @@
 				DEVELOPMENT_TEAM = RDK3B88C83;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hello-there/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hello There";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -622,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C0F5C432BB695600055B2E1 /* Build configuration list for PBXNativeTarget "hello-there" */ = {
+		5C0F5C432BB695600055B2E1 /* Build configuration list for PBXNativeTarget "Hello There" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C0F5C442BB695600055B2E1 /* Debug */,
