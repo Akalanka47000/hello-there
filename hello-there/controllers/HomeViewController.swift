@@ -11,6 +11,7 @@ import CoreImage
 import CoreImage.CIFilterBuiltins
 
 let context = CIContext()
+
 let filter = CIFilter.qrCodeGenerator()
 
 class HomeViewController: UIViewController {

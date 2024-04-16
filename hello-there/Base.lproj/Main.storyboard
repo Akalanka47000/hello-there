@@ -11,7 +11,7 @@
         <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Welcome" title="Welcome" id="BYZ-38-t0r" customClass="ViewController" customModule="hello_there" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Welcome" title="Welcome" id="BYZ-38-t0r" customClass="ViewController" customModule="Hello_There" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,7 +73,7 @@
         <!--Home-->
         <scene sceneID="dFU-q3-QZI">
             <objects>
-                <viewController storyboardIdentifier="Home" title="Home" id="K1C-bC-blF" customClass="HomeViewController" customModule="hello_there" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" title="Home" id="K1C-bC-blF" customClass="HomeViewController" customModule="Hello_There" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qEH-Yx-aBD">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
