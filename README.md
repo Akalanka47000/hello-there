@@ -10,6 +10,13 @@ The primary motivation for an app like this is for those who have their CVs in a
 
 2. Show another person the QR code that appears on the screen from this point on once you open the app at any time
 
+<br/>
+
+<img width="150" src="https://github.com/Akalanka47000/hello-there/assets/73662613/4e688664-8873-437f-982a-91be54eff323" />
+&nbsp;
+<img width="150" src="https://github.com/Akalanka47000/hello-there/assets/73662613/e8c4fbb5-3b69-481e-8d3a-464cde2c0cfd" />
+
+<br/>
 
 ## How to run
 
@@ -18,5 +25,3 @@ The primary motivation for an app like this is for those who have their CVs in a
 2. Open the project in Xcode
 
 3. Run the project on a simulator or a real device
-
---- Simple as that! ---
